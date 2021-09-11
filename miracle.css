@@ -40,7 +40,7 @@
                 }
                 
                 .page2 {
-                    display: block;
+                    display: relative;
                     margin: 0 104.5px;
                     padding: 0 15px;
                 }
@@ -51,11 +51,15 @@
                     position: relative;
                 }
                 
-                .page2 .rec {
-                    margin-left: 35%;
+                .page4 {
+                    position: relative;
+                }
+                
+                .page4 .rec {
                     position: absolute;
-                    height: 55vh;
-                    width: 32vw;
+                    height: 58vh;
+                    width: 35vw;
+                    top: 0;
                 }
                 
                 .page3 h1 {
@@ -489,4 +493,13 @@
                     margin-top: 3%;
                     margin-left: 11px;
                     padding-bottom: 5px;
+                }
+                
+                @media only screen and (max-width: 767px) {
+                    .page1 {
+                        display: none;
+                    }
+                    .hook {
+                        display: block;
+                    }
                 }
