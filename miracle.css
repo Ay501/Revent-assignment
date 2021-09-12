@@ -57,9 +57,14 @@
                 
                 .page4 .rec {
                     position: absolute;
-                    height: 58vh;
-                    width: 35vw;
+                    height: 60vh;
                     top: 0;
+                    width: 33vw;
+                }
+                
+                .page4 .vector {
+                    width: 33vw;
+                    margin-top: 30px;
                 }
                 
                 .page3 h1 {
@@ -109,7 +114,6 @@
                 
                 .page4 img {
                     margin-left: 65%;
-                    margin-top: 20%;
                 }
                 
                 .icons {
@@ -450,7 +454,7 @@
                 }
                 
                 .infor .pass {
-                    padding: 0% 14.3%;
+                    padding: 0% 14.1%;
                     background-color: white;
                     border-radius: 10px;
                     height: 42px;
@@ -494,12 +498,10 @@
                     margin-left: 11px;
                     padding-bottom: 5px;
                 }
-                
-                @media only screen and (max-width: 767px) {
+                /* @media only screen and (max-width: 767px) {
                     .page1 {
                         display: none;
                     }
                     .hook {
                         display: block;
-                    }
-                }
+                } */
