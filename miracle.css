@@ -504,12 +504,20 @@ body {
     padding-bottom: 5px;
 }
 
-@media only screen and (min-width:320px) and (max-width: 480px) {
-    .page1 ul li {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .page1 ul {
+        margin-left: -93px;
         display: block;
-        margin-right: 300px;
+        margin-top: -5px;
+        margin-bottom: 28px;
+    }
+    .page1 li {
+        width: 100%;
+        bottom: 20px;
+        right: 75px;
+    }
+    .page1 ul li {
         height: -0vh;
-        margin-bottom: 27px;
     }
     .page2 img {
         margin-left: -114px;
@@ -535,6 +543,7 @@ body {
     }
     .page4 {
         margin-left: -10px;
+        margin-top: 25px;
     }
     .page4 img {
         margin-left: -177%;
@@ -608,16 +617,16 @@ body {
         margin-top: 20px;
     }
     .white .blue img {
-        margin-left: -21px;
-        width: 97vw;
+        margin-left: -49px;
+        width: 99vw;
     }
     .white .red img {
-        margin-left: -21px;
-        width: 97vw;
+        margin-left: -49px;
+        width: 99vw;
     }
     .white .yellow img {
-        margin-left: -21px;
-        width: 97vw;
+        margin-left: -49px;
+        width: 99vw;
     }
     .touch {
         margin-left: 30%;
