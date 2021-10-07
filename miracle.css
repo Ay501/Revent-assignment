@@ -1029,7 +1029,7 @@
                 .page8 .year2 {
                     display: block;
                     margin-left: 5px;
-                    height: 42vh;
+                    height: 45vh;
                 }
                 .year1 .pete,
                 .lsu,
@@ -1055,6 +1055,7 @@
                 }
                 .portfolio {
                     margin-left: -94px;
+                    margin-top: 49px;
                 }
                 .css {
                     margin-top: 10px;
