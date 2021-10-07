@@ -1,1144 +1,1524 @@
-            @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-            @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
-            @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
-            @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
-            @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-            @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+        body {
+            background-color: black;
+        }
+        
+        .page1 {
+            margin-left: 50px;
+            display: block;
+            margin-top: 15px;
+            float: right;
+        }
+        
+        .page1 ul {
+            list-style-type: none;
+            float: right;
+        }
+        
+        .page1 li {
+            display: inline-block;
+            list-style-type: none;
+            padding-right: 30px;
+            margin-top: 45px;
+            padding-left: 10px;
+        }
+        
+        .page1 ul li a {
+            color: white;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 600px;
+            font-style: normal;
+            text-decoration: none;
+            font-size: 21px;
+            padding-left: 20px;
+        }
+        
+        .page2 {
+            display: relative;
+            margin: 0 104.5px;
+            padding: 0 15px;
+        }
+        
+        .page2 img {
+            margin-top: 12%;
+            margin-left: 10px;
+            position: relative;
+        }
+        
+        .page4 {
+            display: block;
+        }
+        
+        .page4 .rec {
+            position: absolute;
+            top: 260px;
+            width: 33vw;
+            left: -50px;
+            height: 60vh;
+        }
+        
+        .page4 .vector {
+            width: 33vw;
+            position: absolute;
+            top: 295px;
+            left: -45px;
+        }
+        
+        .page3 h1 {
+            color: white;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            margin-left: 26%;
+            margin-top: 17%;
+            font-weight: bold;
+            line-height: 1.5;
+        }
+        
+        .page3 h2 {
+            font-family: 'montserrat', sans-serif;
+            ;
+        }
+        
+        .page3 p {
+            color: white;
+            margin-left: 26%;
+            font-family: 'Montserrat', sans-serif;
+            line-height: 1.6;
+            width: 500px;
+        }
+        
+        .hook h2 {
+            width: 246px;
+            height: 50px;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            border-radius: 10px;
+            background-color: #fce82f;
+            color: black;
+            margin-left: 130px;
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            margin-top: 50px;
+            padding-top: 24px;
+            font-weight: 700;
+            font-size: 20px;
+        }
+        
+        .hook {
+            position: relative;
+            display: flex;
+            justify-content: flex-start;
+        }
+        
+        .page4 img {
+            margin-left: 65%;
+        }
+        
+        .icons {
+            margin-left: 24%;
+            margin-top: 1%;
+        }
+        
+        #icon1,
+        #icon2,
+        #icon3 {
+            background-color: #fce82f;
+            font-size: 40px;
+            margin-left: 20px;
+            border-radius: 45%;
+            -webkit-border-radius: 45%;
+            -moz-border-radius: 45%;
+            -ms-border-radius: 45%;
+            -o-border-radius: 45%;
+        }
+        
+        .about-us {
+            display: inline-block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            margin-left: 45%;
+            margin-top: 5%;
+        }
+        
+        .about-us h1 {
+            border-bottom: 4px solid #fce82f;
+            color: white;
+            font-family: 'Montserrat', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+        }
+        
+        .male {
+            display: flex;
+            justify-content: flex-start;
+            margin-right: 20px;
+            margin-top: 40px;
+        }
+        
+        .focus {
+            margin-left: 100px;
+            margin-top: 20px;
+        }
+        
+        .focused {
+            color: white;
+            margin-left: 14%;
+            font-family: 'Montserrat', sans-serif;
+            line-height: 1.5;
+            font-weight: 400px;
+            font-size: 18px;
+            font-style: normal;
+        }
+        
+        .through {
+            color: white;
+            margin-left: 14%;
+            font-family: 'Montserrat', sans-serif;
+            line-height: 1.5;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400px;
+        }
+        
+        .focus h1 {
+            font-family: 'Montserrat', sans-serif;
+            color: white;
+            margin-left: 14%;
+            font-size: 20px;
+            font-weight: 600px;
+            font-style: normal;
+        }
+        
+        .worker {
+            width: 246px;
+            height: 50px;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            border-radius: 10px;
+            background-color: #fce82f;
+            color: black;
+            margin-left: 90px;
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            padding-top: 20px;
+            font-weight: 700;
+            font-size: 20px;
+            margin-top: 40px;
+        }
+        
+        .pictu img {
+            margin-left: 25%;
+            width: 80vh;
+        }
+        
+        .resume h1 {
+            display: inline-block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            margin-left: 45%;
+            margin-top: 5%;
+            border-bottom: 4px solid #fce82f;
+            color: white;
+            font-family: 'Montserrat', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+        }
+        
+        .page8 {
+            display: flex;
+            justify-content: flex-start;
+        }
+        
+        .page8 .year1 {
+            color: white;
+            margin-left: 140px;
+            width: 100vw;
+            height: 50vh;
+            border-left: 4px solid #fce82f;
+            ;
+        }
+        
+        .page8 .year2 {
+            color: white;
+            margin-left: 20%;
+            width: 100vw;
+            height: 50vh;
+            border-left: 4px solid #fce82f;
+            ;
+        }
+        
+        .year1 .pete {
+            font-weight: 700;
+            font-size: 30px;
+            font-family: 'Montserrat', sans-serif;
+            margin-top: 0px;
+        }
+        
+        .year1 .paul {
+            font-size: 30px;
+            font-weight: 700;
+            font-family: 'Montserrat', sans-serif;
+            margin-top: 60px;
+        }
+        
+        .year1 .he,
+        .lsu {
+            font-weight: 600;
+            font-size: 22px;
+            font-family: 'Montserrat', sans-serif;
+            margin-bottom: -15px;
+        }
+        
+        .year1 .li,
+        .pod {
+            font-weight: 500;
+            font-size: 20px;
+            font-family: 'Montserrat', sans-serif;
+        }
+        
+        .year2 .james {
+            font-weight: 700;
+            font-size: 30px;
+            font-family: 'Montserrat', sans-serif;
+            margin-top: 0px;
+            margin-left: 7px;
+        }
+        
+        .year2 .john {
+            font-size: 30px;
+            font-weight: 700;
+            font-family: 'Montserrat', sans-serif;
+            margin-top: 60px;
+            margin-left: 7px;
+        }
+        
+        .year2 .ud,
+        .mp {
+            font-weight: 600;
+            font-size: 22px;
+            font-family: 'Montserrat', sans-serif;
+            margin-bottom: -15px;
+            margin-left: 7px;
+        }
+        
+        .year2 .pd,
+        .pl {
+            font-weight: 500;
+            font-size: 20px;
+            font-family: 'Montserrat', sans-serif;
+            margin-left: 6px;
+        }
+        
+        .portfolio h2 {
+            display: inline-block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            margin-left: 45%;
+            margin-top: 5%;
+            border-bottom: 4px solid #fce82f;
+            color: white;
+            font-family: 'Montserrat', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 30px;
+        }
+        
+        .css {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+        }
+        
+        .css ul {
+            list-style-type: none;
+        }
+        
+        .css li {
+            display: inline-block;
+            font-weight: 500;
+            padding: 8px;
+        }
+        
+        .css li a {
+            text-decoration: none;
+            color: white;
+            font-family: 'Roboto', sans-serif;
+            font-weight: normal;
+            font-size: 20px;
+            margin: 15px;
+        }
+        
+        .all {
+            transition: all 0.2s ease-in-out 0s;
+            cursor: pointer;
+            text-align: -webkit-match-parent;
+        }
+        
+        .css ul li a:hover {
+            border: 1px solid rgb(247, 247, 242);
+            background-color: white;
+            color: black;
+            padding: 7px 30px 7px 30px;
+            border-radius: 10px;
+        }
+        
+        .white {
+            display: flex;
+            justify-content: flex-start;
+            margin-left: 10%;
+            margin-top: 10px;
+        }
+        
+        .touch {
+            margin-left: 43%;
+            display: inline-block;
+            margin-top: 20px;
+        }
+        
+        .touch h2 {
+            color: white;
+            border-bottom: 4px solid #fce82f;
+            font-weight: bold;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 30px;
+            margin-right: 30px;
+        }
+        
+        .logo {
+            display: flex;
+            justify-content: flex-start;
+            margin-top: 30px;
+        }
+        
+        #call {
+            color: #fce82f;
+            margin-left: 65px;
+            font-size: 45px;
+        }
+        
+        .call h2 {
+            color: white;
+            font-size: 26px;
+            margin-left: 35px;
+            font-family: 'montserrat', sans-serif;
+        }
+        
+        .call p {
+            color: #ffffff;
+            font-size: 20px;
+            margin-right: 10px;
+            font-family: 'montserrat', sans-serif;
+        }
+        
+        #email {
+            color: #fce82f;
+            font-size: 45px;
+            margin-left: 60px;
+        }
+        
+        .email h3 {
+            color: white;
+            font-size: 26px;
+            margin-left: 14px;
+            font-family: 'montserrat', sans-serif;
+        }
+        
+        .email p {
+            color: white;
+            font-size: 20px;
+            font-family: 'montserrat', sans-serif;
+        }
+        
+        .email {
+            margin-left: 30%;
+        }
+        
+        .call {
+            margin-left: 23%;
+        }
+        
+        .infor {
+            margin-left: 10%;
+            margin-top: 30px;
+        }
+        
+        .infor .user {
+            padding: 0% 15%;
+            background-color: white;
+            border-radius: 10px;
+            height: 42px;
+            margin-left: 12px;
+        }
+        
+        .infor .pass {
+            padding: 0% 14.1%;
+            background-color: white;
+            border-radius: 10px;
+            height: 42px;
+            margin-left: 20px;
+        }
+        
+        .infor .email {
+            padding: 0% 37.5%;
+            background-color: white;
+            border-radius: 10px;
+            height: 42px;
+            margin-left: 10px;
+            margin-top: 20px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+        }
+        
+        .infor .comm {
+            padding: 0% 37.5%;
+            background-color: white;
+            border-radius: 10px;
+            height: 220px;
+            margin-left: 10px;
+            margin-top: 20px
+        }
+        
+        .send h2 {
+            font-family: 'Poppins', sans-serif;
+            background-color: #fce82f;
+            border-radius: 10px;
+            display: inline-block;
+            color: black;
+            border-radius: 10px;
+            height: 45px;
+            width: 23%;
+            padding-top: 2%;
+            text-align: center;
+            margin-top: 3%;
+            margin-left: 11px;
+            padding-bottom: 5px;
+        }
+        
+        @media only screen and (min-device-width:321px) and (max-device-width: 375px) {
             body {
-                background-color: black;
+                width: 100vw;
             }
-            
-            .page1 {
-                margin-left: 50px;
-                display: block;
-                margin-top: 15px;
-                float: right;
-            }
-            
             .page1 ul {
-                list-style-type: none;
-                float: right;
-            }
-            
-            .page1 li {
-                display: inline-block;
-                list-style-type: none;
-                padding-right: 30px;
-                margin-top: 45px;
-                padding-left: 10px;
-            }
-            
-            .page1 ul li a {
-                color: white;
-                font-family: 'Roboto', sans-serif;
-                font-weight: 600px;
-                font-style: normal;
-                text-decoration: none;
-                font-size: 21px;
-                padding-left: 20px;
-            }
-            
-            .page2 {
-                display: relative;
-                margin: 0 104.5px;
-                padding: 0 15px;
-            }
-            
-            .page2 img {
-                margin-top: 12%;
-                margin-left: 10px;
-                position: relative;
-            }
-            
-            .page4 {
+                margin-left: -93px;
+                display: block;
+                margin-top: -5px;
+                margin-bottom: 28px;
                 display: block;
             }
-            
-            .page4 .rec {
-                position: absolute;
-                top: 260px;
-                width: 33vw;
-                left: -50px;
-                height: 60vh;
+            .page1 li {
+                width: 100%;
+                bottom: 20px;
+                right: 75px;
             }
-            
-            .page4 .vector {
-                width: 33vw;
-                position: absolute;
-                top: 295px;
-                left: -45px;
+            .page1 ul li {
+                height: -0vh;
             }
-            
+            .page2 img {
+                margin-left: -112px;
+            }
+            .hook {
+                margin-left: -122px;
+            }
             .page3 h1 {
-                color: white;
-                font-family: 'Montserrat', sans-serif;
-                font-weight: 700;
-                margin-left: 26%;
-                margin-top: 17%;
-                font-weight: bold;
+                width: 66%;
+                margin-left: 130px;
+                font-size: 35px;
+                font-style: normal;
+                font-weight: 700 !important;
                 line-height: 1.5;
             }
-            
-            .page3 h2 {
-                font-family: 'montserrat', sans-serif;
-                ;
+            .page3 p {
+                width: 69%;
+                margin-left: 131px;
+                font-weight: 400;
+                font-size: 18px;
+                font-style: normal;
             }
-            
+            .page4 {
+                position: absolute;
+                display: block;
+                top: 832px;
+                margin-left: 89px;
+            }
+            .icons {
+                margin-left: 23%;
+            }
+            .page4 .vector {
+                width: 65vw;
+            }
+            .page4 .rec {
+                top: 275px;
+                width: 66vw;
+                height: 33vh;
+            }
+            .about-us {
+                margin-left: 27%;
+                margin-top: 98%;
+            }
+            .pictu img {
+                margin-left: 2%;
+                width: 52vh;
+            }
+            .male {
+                display: block;
+            }
+            .focus {
+                margin-left: -15px;
+            }
+            .worker {
+                margin-left: 50px;
+            }
+            .resume {
+                margin-left: -105px;
+                margin-top: 31px;
+            }
+            .page8 {
+                display: block;
+                margin-top: 35px;
+            }
+            .page8 .year1 {
+                margin-left: 3px;
+                height: 56vh;
+            }
+            .page8 .year2 {
+                margin-left: 3px;
+            }
+            .year1 .pete,
+            .lsu,
+            .li,
+            .paul,
+            .he,
+            .pod {
+                margin-left: -28px;
+            }
+            .year2 .james,
+            .mp,
+            .pl {
+                margin-left: -23px;
+            }
+            .year2 .ud {
+                margin-left: -23px;
+            }
+            .year2 .pd {
+                margin-left: -23px;
+            }
+            .year2 .john {
+                margin-left: -23px;
+            }
+            .portfolio {
+                margin-left: -103px;
+                margin-top: 43px;
+            }
+            .css {
+                margin-top: 10px;
+                margin-left: -5px;
+            }
+            .css ul li a {
+                display: block;
+                margin-right: 300px;
+                height: 1vh;
+                margin-left: 300px;
+            }
+            .white {
+                display: block;
+                margin-left: -2%;
+            }
+            .white .blue img {
+                width: 100vw;
+            }
+            .white .red img {
+                width: 100vw;
+            }
+            .white .yellow img {
+                width: 100vw;
+            }
+            .touch {
+                margin-left: 21%;
+            }
+            .logo {
+                display: block;
+                margin-top: 30px;
+            }
+            #call {
+                margin-bottom: -14px;
+            }
+            .call {
+                margin-left: 26%;
+            }
+            .call p {
+                margin-left: -10px;
+            }
+            #email {
+                margin-bottom: -20px;
+            }
+            .email {
+                margin-left: 22%;
+                margin-top: 38px;
+            }
+            .email p {
+                margin-left: -7px;
+            }
+            .infor {
+                margin-left: 11%;
+                margin-top: 17px;
+            }
+            .infor .user {
+                width: 95vw;
+                margin-left: -38px;
+                margin-top: 13px;
+            }
+            .infor .pass {
+                width: 95vw;
+                margin-left: -38px;
+                margin-top: 13px;
+            }
+            .infor .email {
+                width: 95vw;
+                margin-left: -38px;
+                margin-top: 13px;
+            }
+            .infor .comm {
+                width: 95vw;
+                margin-left: -38px;
+                margin-top: 13px;
+            }
+            .send h2 {
+                width: 50vw;
+                height: 6vh;
+                padding-top: 4%;
+                font-size: 20px;
+                margin-left: -35px;
+            }
+        }
+        
+        @media only screen and (min-device-width:377px) and (max-device-width:411px) {
+            body {
+                width: 100vw;
+            }
+            .page1 {
+                margin-top: -6px;
+            }
+            .page1 ul {
+                margin-left: -93px;
+                display: block;
+                margin-top: -6px;
+                margin-bottom: 28px;
+                display: block;
+            }
+            .page1 li {
+                width: 100%;
+                bottom: 20px;
+                right: 75px;
+            }
+            .page1 ul li {
+                height: -0vh;
+            }
+            .page2 img {
+                margin-top: 3%;
+                margin-left: -116px;
+            }
+            .page3 {
+                margin-left: -123px;
+            }
+            .page3 p {
+                font-family: 'Montserrat', sans-serif;
+                line-height: 1.5;
+                width: 82vw;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                margin-left: 27%;
+            }
+            .page3 h1 {
+                width: 80%;
+                margin-left: 128px;
+                font-size: 35px;
+                font-style: normal;
+                font-weight: 700 !important;
+                line-height: 1.5;
+            }
+            .page4 {
+                position: absolute;
+                display: block;
+                top: 735px;
+                margin-left: 89px;
+            }
+            .about-us {
+                margin-left: 29%;
+                margin-top: 97%;
+            }
+            .page4 .vector {
+                width: 62vw;
+            }
+            .page4 .rec {
+                top: 284px;
+                width: 62vw;
+                height: 30vh;
+                left: -47px;
+            }
+            .male {
+                display: block;
+                margin-left: -124px;
+            }
+            .pictu img {
+                width: 94vw;
+            }
+            .focus {
+                margin-left: 92px;
+            }
+            .focused {
+                width: 353px;
+            }
+            .through {
+                width: 100vw;
+            }
+            .worker {
+                margin-left: 61px;
+            }
+            .resume {
+                margin-left: -101px;
+                margin-top: 34px;
+            }
+            .page8 {
+                display: block;
+                margin-top: 42px;
+            }
+            .page8 .year1 {
+                margin-left: 6px;
+            }
+            .page8 .year2 {
+                color: white;
+                margin-left: 5.5px;
+                height: 43vh;
+            }
+            .year1 .pete,
+            .lsu,
+            .li,
+            .paul,
+            .he,
+            .pod {
+                margin-left: -28px;
+            }
+            .year2 .james,
+            .mp,
+            .pl {
+                margin-left: -23px;
+            }
+            .year2 .ud {
+                margin-left: -23px;
+            }
+            .year2 .pd {
+                margin-left: -23px;
+            }
+            .year2 .john {
+                margin-left: -23px;
+            }
+            .portfolio {
+                margin-left: -98px;
+                margin-top: 33px;
+            }
+            .css {
+                margin-top: 10px;
+                margin-left: -5px;
+            }
+            .css ul li a {
+                display: block;
+                margin-right: 300px;
+                height: 1vh;
+                margin-left: 300px;
+            }
+            .white {
+                display: block;
+                margin-left: -2%;
+            }
+            .white .blue img {
+                width: 100vw;
+            }
+            .white .red img {
+                width: 100vw;
+            }
+            .white .yellow img {
+                width: 100vw;
+            }
+            .touch {
+                margin-left: 23%;
+            }
+            .logo {
+                display: block;
+            }
+            .logo {
+                display: block;
+                margin-top: 30px;
+            }
+            #call {
+                margin-bottom: -14px;
+            }
+            .call {
+                margin-left: 29%;
+                display: block;
+            }
+            .call p {
+                margin-left: -10px;
+            }
+            #email {
+                margin-bottom: -20px;
+            }
+            .email {
+                margin-left: 26%;
+                margin-top: 38px;
+            }
+            .email p {
+                margin-left: -7px;
+            }
+            .infor {
+                margin-left: 11%;
+                margin-top: 17px;
+            }
+            .infor .user {
+                margin-left: -42px;
+                width: 94vw;
+            }
+            .infor .pass {
+                margin-top: 15px;
+                margin-left: -42px;
+                width: 94vw;
+            }
+            .infor .email {
+                width: 94vw;
+                margin-left: -42px;
+                margin-top: 15px;
+            }
+            .infor .comm {
+                width: 94vw;
+                margin-left: -42px;
+                margin-top: 15px;
+            }
+            .send h2 {
+                width: 56vw;
+                height: 6vh;
+                padding-top: 4%;
+                font-size: 20px;
+                margin-left: -35px;
+            }
+        }
+        
+        @media only screen and (min-device-width: 412px) and (max-device-width: 415px) {
+            body {
+                width: 100vw;
+            }
+            .page1 {
+                margin-top: -6px;
+            }
+            .page1 ul {
+                margin-left: -97px;
+            }
+            .page1 li {
+                width: 100%;
+                bottom: 20px;
+                right: 75px;
+            }
+            .page1 ul li {
+                height: -0vh;
+            }
+            .page2 img {
+                margin-top: 12%;
+                margin-left: -111px;
+            }
+            .page3 {
+                margin-left: -127px;
+            }
+            .page3 h1 {
+                width: 364px;
+                margin-left: 35%;
+                font-size: 35px;
+                font-style: normal;
+                font-weight: 700 !important;
+                line-height: 1.5;
+            }
+            .page3 p {
+                margin-left: 35%;
+                font-family: 'Montserrat', sans-serif;
+                line-height: 1.5;
+                width: 82vw;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+            }
+            .icons {
+                margin-left: 30%;
+            }
+            .about-us {
+                margin-top: 88%;
+            }
+            .page4 {
+                top: 742px;
+                display: block;
+                position: absolute;
+                margin-left: 82px;
+            }
+            .page4 .vector {
+                width: 60vw;
+            }
+            .page4 .rec {
+                top: 279px;
+                width: 60vw;
+                left: -48px;
+                height: 29vh;
+            }
+            .about-us {
+                margin-left: 29%;
+                margin-top: 98%;
+            }
+            .male {
+                display: block;
+                margin-left: -126px;
+            }
+            .pictu img {
+                margin-left: 25%;
+                width: 53vh;
+            }
+            .focus h1 {
+                margin-top: 49px;
+                margin-left: 12%;
+            }
+            .focused {
+                line-height: 1.5;
+                font-weight: 400;
+                font-size: 18px;
+                font-style: normal;
+                width: 86vw;
+            }
+            .through {
+                line-height: 1.5;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                width: 80vw;
+            }
+            .worker {
+                margin-left: 60px;
+            }
+            .resume {
+                margin-left: -110px;
+                margin-top: 33px;
+            }
+            .page8 {
+                display: block;
+                margin-top: 40px;
+            }
+            .page8 .year1 {
+                margin-left: 5px;
+                display: block;
+            }
+            .page8 .year2 {
+                display: block;
+                margin-left: 5px;
+                height: 45vh;
+            }
+            .year1 .pete,
+            .lsu,
+            .li,
+            .paul,
+            .he,
+            .pod {
+                margin-left: -28px;
+            }
+            .year2 .james,
+            .mp,
+            .pl {
+                margin-left: -23px;
+            }
+            .year2 .ud {
+                margin-left: -23px;
+            }
+            .year2 .pd {
+                margin-left: -23px;
+            }
+            .year2 .john {
+                margin-left: -23px;
+            }
+            .portfolio {
+                margin-left: -94px;
+                margin-top: 49px;
+            }
+            .css {
+                margin-top: 10px;
+            }
+            .css ul li a {
+                display: block;
+                margin-right: 300px;
+                height: 1vh;
+                margin-left: 300px;
+            }
+            .white {
+                display: block;
+                margin-top: 20px;
+                margin-left: 44px;
+            }
+            .white .blue img {
+                margin-left: -49px;
+                width: 99vw;
+            }
+            .white .red img {
+                margin-left: -49px;
+                width: 99vw;
+            }
+            .white .yellow img {
+                margin-left: -49px;
+                width: 99vw;
+            }
+            .touch {
+                margin-left: 24%;
+                margin-top: 31px;
+            }
+            .logo {
+                display: block;
+                margin-top: 30px;
+            }
+            #call {
+                margin-bottom: -14px;
+            }
+            .call {
+                margin-left: 29%;
+            }
+            .call p {
+                margin-left: -10px;
+            }
+            #email {
+                margin-bottom: -20px;
+            }
+            .email {
+                margin-left: 27%;
+                margin-top: 38px;
+            }
+            .email p {
+                margin-left: -7px;
+            }
+            .infor {
+                margin-left: 10%;
+                margin-top: -15px;
+            }
+            .infor .user {
+                width: 95vw;
+                margin-left: -38px;
+                margin-top: 13px;
+            }
+            .infor .pass {
+                width: 95vw;
+                margin-left: -38px;
+                margin-top: 13px;
+            }
+            .infor .email {
+                width: 95vw;
+                margin-left: -38px;
+                margin-top: 13px;
+            }
+            .infor .comm {
+                width: 95vw;
+                margin-left: -38px;
+                margin-top: 13px;
+            }
+            .send h2 {
+                width: 54vw;
+                height: 6vh;
+                padding-top: 4%;
+                font-size: 20px;
+                margin-left: -35px;
+            }
+        }
+        
+        @media only screen and (min-device-width:768px) and (max-device-width:1023px) {
+            body {
+                width: 100vw;
+            }
+            .page1 {
+                margin-top: -6px;
+            }
+            .page1 ul {
+                margin-left: -87px;
+            }
+            .page1 li {
+                width: 100%;
+                bottom: 20px;
+                right: 75px;
+            }
+            .page1 ul li {
+                height: -0vh;
+                margin-left: -30%;
+            }
+            .page2 img {
+                margin-left: -89px;
+            }
+            .hook {
+                margin-left: -66px;
+            }
+            .hook h2 {
+                margin-left: 87px;
+            }
+            .page3 h1 {
+                width: 42vw;
+                font-size: 35px;
+                font-weight: 700 !important;
+            }
             .page3 p {
                 color: white;
                 margin-left: 26%;
-                font-family: 'Montserrat', sans-serif;
-                line-height: 1.6;
-                width: 500px;
+                line-height: 1.5;
+                font-size: 18px;
+                width: 283px;
             }
-            
-            .hook h2 {
-                width: 246px;
-                height: 50px;
-                border: none;
-                outline: none;
-                cursor: pointer;
-                border-radius: 10px;
-                background-color: #fce82f;
-                color: black;
-                margin-left: 130px;
-                text-align: center;
-                font-family: 'Poppins', sans-serif;
-                margin-top: 50px;
-                padding-top: 24px;
-                font-weight: 700;
-                font-size: 20px;
-            }
-            
-            .hook {
-                position: relative;
-                display: flex;
-                justify-content: flex-start;
-            }
-            
-            .page4 img {
-                margin-left: 65%;
-            }
-            
             .icons {
-                margin-left: 24%;
-                margin-top: 1%;
+                margin-left: 20%;
             }
-            
-            #icon1,
-            #icon2,
-            #icon3 {
-                background-color: #fce82f;
-                font-size: 40px;
-                margin-left: 20px;
-                border-radius: 45%;
-                -webkit-border-radius: 45%;
-                -moz-border-radius: 45%;
-                -ms-border-radius: 45%;
-                -o-border-radius: 45%;
+            .page4 .vector {
+                width: 36.5vw;
+                top: 409px;
             }
-            
+            .page4 .rec {
+                top: 395px;
+                width: 37vw;
+                height: 24vh;
+            }
             .about-us {
-                display: inline-block;
-                margin-block-start: 1em;
-                margin-block-end: 1em;
-                margin-inline-start: 0px;
-                margin-inline-end: 0px;
-                margin-left: 45%;
-                margin-top: 5%;
+                margin-left: 39%;
+                margin-top: 6%;
             }
-            
-            .about-us h1 {
-                border-bottom: 4px solid #fce82f;
-                color: white;
-                font-family: 'Montserrat', sans-serif;
-                font-style: normal;
-                font-weight: bold;
-            }
-            
             .male {
-                display: flex;
-                justify-content: flex-start;
-                margin-right: 20px;
-                margin-top: 40px;
+                margin-left: -58px;
             }
-            
-            .focus {
-                margin-left: 100px;
-                margin-top: 20px;
-            }
-            
-            .focused {
-                color: white;
-                margin-left: 14%;
-                font-family: 'Montserrat', sans-serif;
-                line-height: 1.5;
-                font-weight: 400px;
-                font-size: 18px;
-                font-style: normal;
-            }
-            
-            .through {
-                color: white;
-                margin-left: 14%;
-                font-family: 'Montserrat', sans-serif;
-                line-height: 1.5;
-                font-size: 18px;
-                font-style: normal;
-                font-weight: 400px;
-            }
-            
-            .focus h1 {
-                font-family: 'Montserrat', sans-serif;
-                color: white;
-                margin-left: 14%;
-                font-size: 20px;
-                font-weight: 600px;
-                font-style: normal;
-            }
-            
-            .worker {
-                width: 246px;
-                height: 50px;
-                border: none;
-                outline: none;
-                cursor: pointer;
-                border-radius: 10px;
-                background-color: #fce82f;
-                color: black;
-                margin-left: 90px;
-                text-align: center;
-                font-family: 'Poppins', sans-serif;
-                padding-top: 20px;
-                font-weight: 700;
-                font-size: 20px;
-                margin-top: 40px;
-            }
-            
             .pictu img {
                 margin-left: 25%;
-                width: 80vh;
+                width: 32vh;
             }
-            
-            .resume h1 {
-                display: inline-block;
-                margin-block-start: 1em;
-                margin-block-end: 1em;
-                margin-inline-start: 0px;
-                margin-inline-end: 0px;
-                margin-left: 45%;
-                margin-top: 5%;
-                border-bottom: 4px solid #fce82f;
-                color: white;
-                font-family: 'Montserrat', sans-serif;
-                font-style: normal;
-                font-weight: bold;
+            .focus {
+                margin-left: 86px;
             }
-            
+            .focused p {
+                width: 41vw;
+                font-size: 18px;
+                font-weight: 400;
+            }
+            .through {
+                width: 38vw;
+                font-size: 18px;
+                font-weight: 400;
+            }
+            .worker {
+                margin-left: 56px;
+            }
+            .resume {
+                margin-left: -73px;
+            }
             .page8 {
-                display: flex;
-                justify-content: flex-start;
+                margin-top: 45px;
+                margin-left: -117px;
             }
-            
             .page8 .year1 {
-                color: white;
-                margin-left: 140px;
-                width: 100vw;
-                height: 50vh;
-                border-left: 4px solid #fce82f;
-                ;
+                height: 31vh;
             }
-            
             .page8 .year2 {
-                color: white;
-                margin-left: 20%;
-                width: 100vw;
-                height: 50vh;
-                border-left: 4px solid #fce82f;
-                ;
+                margin-left: 14%;
+                height: 31vh;
             }
-            
-            .year1 .pete {
-                font-weight: 700;
-                font-size: 30px;
-                font-family: 'Montserrat', sans-serif;
-                margin-top: 0px;
-            }
-            
-            .year1 .paul {
-                font-size: 30px;
-                font-weight: 700;
-                font-family: 'Montserrat', sans-serif;
-                margin-top: 60px;
-            }
-            
-            .year1 .he,
-            .lsu {
-                font-weight: 600;
-                font-size: 22px;
-                font-family: 'Montserrat', sans-serif;
-                margin-bottom: -15px;
-            }
-            
-            .year1 .li,
+            .year1 .pete,
+            .lsu,
+            .li,
+            .paul,
+            .he,
             .pod {
-                font-weight: 500;
-                font-size: 20px;
-                font-family: 'Montserrat', sans-serif;
+                margin-left: -28px;
             }
-            
-            .year2 .james {
-                font-weight: 700;
-                font-size: 30px;
-                font-family: 'Montserrat', sans-serif;
-                margin-top: 0px;
-                margin-left: 7px;
-            }
-            
-            .year2 .john {
-                font-size: 30px;
-                font-weight: 700;
-                font-family: 'Montserrat', sans-serif;
-                margin-top: 60px;
-                margin-left: 7px;
-            }
-            
-            .year2 .ud,
-            .mp {
-                font-weight: 600;
-                font-size: 22px;
-                font-family: 'Montserrat', sans-serif;
-                margin-bottom: -15px;
-                margin-left: 7px;
-            }
-            
-            .year2 .pd,
+            .year2 .james,
+            .mp,
             .pl {
-                font-weight: 500;
-                font-size: 20px;
-                font-family: 'Montserrat', sans-serif;
-                margin-left: 6px;
+                margin-left: -23px;
             }
-            
-            .portfolio h2 {
-                display: inline-block;
-                margin-block-start: 1em;
-                margin-block-end: 1em;
-                margin-inline-start: 0px;
-                margin-inline-end: 0px;
-                margin-left: 45%;
-                margin-top: 5%;
-                border-bottom: 4px solid #fce82f;
-                color: white;
-                font-family: 'Montserrat', sans-serif;
-                font-style: normal;
-                font-weight: bold;
-                font-size: 30px;
+            .year2 .ud {
+                margin-left: -23px;
             }
-            
-            .css {
-                display: flex;
-                justify-content: center;
-                margin-top: 30px;
+            .year2 .pd {
+                margin-left: -23px;
             }
-            
+            .year2 .john {
+                margin-left: -23px;
+            }
+            .portfolio {
+                margin-left: -69px;
+                margin-top: 31px;
+            }
             .css ul {
-                list-style-type: none;
+                margin-top: -20px;
             }
-            
-            .css li {
-                display: inline-block;
-                font-weight: 500;
-                padding: 8px;
+            .css ul a {
+                display: block;
+                margin-right: 300px;
+                height: 1vh;
+                margin-left: 300px;
             }
-            
-            .css li a {
-                text-decoration: none;
-                color: white;
-                font-family: 'Roboto', sans-serif;
-                font-weight: normal;
-                font-size: 20px;
-                margin: 15px;
-            }
-            
-            .all {
-                transition: all 0.2s ease-in-out 0s;
-                cursor: pointer;
-                text-align: -webkit-match-parent;
-            }
-            
-            .css ul li a:hover {
-                border: 1px solid rgb(247, 247, 242);
-                background-color: white;
-                color: black;
-                padding: 7px 30px 7px 30px;
-                border-radius: 10px;
-            }
-            
             .white {
+                margin-left: 2%;
+                margin-top: 13px;
                 display: flex;
-                justify-content: flex-start;
-                margin-left: 10%;
-                margin-top: 10px;
+                flex-wrap: wrap;
             }
-            
             .touch {
-                margin-left: 43%;
-                display: inline-block;
-                margin-top: 20px;
+                margin-left: 37%;
             }
-            
-            .touch h2 {
-                color: white;
-                border-bottom: 4px solid #fce82f;
-                font-weight: bold;
-                font-family: 'Montserrat', sans-serif;
-                font-size: 30px;
-                margin-right: 30px;
-            }
-            
-            .logo {
-                display: flex;
-                justify-content: flex-start;
-                margin-top: 30px;
-            }
-            
-            #call {
-                color: #fce82f;
-                margin-left: 65px;
-                font-size: 45px;
-            }
-            
-            .call h2 {
-                color: white;
-                font-size: 26px;
-                margin-left: 35px;
-                font-family: 'montserrat', sans-serif;
-            }
-            
-            .call p {
-                color: #ffffff;
-                font-size: 20px;
-                margin-right: 10px;
-                font-family: 'montserrat', sans-serif;
-            }
-            
-            #email {
-                color: #fce82f;
-                font-size: 45px;
-                margin-left: 60px;
-            }
-            
-            .email h3 {
-                color: white;
-                font-size: 26px;
-                margin-left: 14px;
-                font-family: 'montserrat', sans-serif;
-            }
-            
-            .email p {
-                color: white;
-                font-size: 20px;
-                font-family: 'montserrat', sans-serif;
-            }
-            
-            .email {
-                margin-left: 30%;
-            }
-            
             .call {
+                margin-left: 14%;
+            }
+            .call p {
+                margin-left: -10px;
+            }
+            #call {
+                margin-bottom: -15px;
+            }
+            .logo {
+                margin-top: 37px;
+            }
+            .email {
                 margin-left: 23%;
             }
-            
+            .email p {
+                margin-left: -5px;
+            }
+            #email {
+                margin-bottom: -20px;
+            }
             .infor {
-                margin-left: 10%;
-                margin-top: 30px;
+                margin-top: -2px;
             }
-            
             .infor .user {
-                padding: 0% 15%;
-                background-color: white;
-                border-radius: 10px;
-                height: 42px;
-                margin-left: 12px;
+                margin-left: -54px;
+                width: 95vw;
             }
-            
             .infor .pass {
-                padding: 0% 14.1%;
-                background-color: white;
-                border-radius: 10px;
-                height: 42px;
-                margin-left: 20px;
+                margin-left: -54px;
+                width: 95vw;
             }
-            
             .infor .email {
-                padding: 0% 37.5%;
-                background-color: white;
-                border-radius: 10px;
-                height: 42px;
-                margin-left: 10px;
-                margin-top: 20px;
-                -webkit-border-radius: 10px;
-                -moz-border-radius: 10px;
-                -ms-border-radius: 10px;
-                -o-border-radius: 10px;
+                margin-left: -54px;
+                width: 95vw;
             }
-            
             .infor .comm {
-                padding: 0% 37.5%;
-                background-color: white;
-                border-radius: 10px;
-                height: 220px;
-                margin-left: 10px;
-                margin-top: 20px
+                margin-left: -54px;
+                width: 95vw;
             }
-            
             .send h2 {
-                font-family: 'Poppins', sans-serif;
-                background-color: #fce82f;
-                border-radius: 10px;
-                display: inline-block;
-                color: black;
-                border-radius: 10px;
-                height: 45px;
-                width: 23%;
+                height: 50px;
+                width: 41%;
                 padding-top: 2%;
-                text-align: center;
                 margin-top: 3%;
-                margin-left: 11px;
-                padding-bottom: 5px;
+                margin-left: -53px;
             }
-            
-            @media only screen and (min-device-width:251px) and (max-device-width: 376px) {
-                body {
-                    width: 100vw;
-                }
-                .page1 ul {
-                    margin-left: -93px;
-                    display: block;
-                    margin-top: -5px;
-                    margin-bottom: 28px;
-                    display: block;
-                }
-                .page1 li {
-                    width: 100%;
-                    bottom: 20px;
-                    right: 75px;
-                }
-                .page1 ul li {
-                    height: -0vh;
-                }
-                .page2 img {
-                    margin-left: -112px;
-                }
-                .hook {
-                    margin-left: -122px;
-                }
-                .page3 h1 {
-                    width: 66%;
-                    margin-left: 130px;
-                    font-size: 35px;
-                    font-style: normal;
-                    font-weight: 700 !important;
-                    line-height: 1.5;
-                }
-                .page3 p {
-                    width: 69%;
-                    margin-left: 131px;
-                    font-weight: 400;
-                    font-size: 18px;
-                    font-style: normal;
-                }
-                .page4 {
-                    position: absolute;
-                    display: block;
-                    top: 832px;
-                    margin-left: 89px;
-                }
-                .icons {
-                    margin-left: 23%;
-                }
-                .page4 .vector {
-                    width: 65vw;
-                }
-                .page4 .rec {
-                    top: 275px;
-                    width: 66vw;
-                    height: 33vh;
-                }
-                .about-us {
-                    margin-left: 27%;
-                    margin-top: 98%;
-                }
-                .pictu img {
-                    margin-left: 2%;
-                    width: 52vh;
-                }
-                .male {
-                    display: block;
-                }
-                .focus {
-                    margin-left: -15px;
-                }
-                .worker {
-                    margin-left: 50px;
-                }
-                .resume {
-                    margin-left: -105px;
-                    margin-top: 31px;
-                }
-                .page8 {
-                    display: block;
-                    margin-top: 35px;
-                }
-                .page8 .year1 {
-                    margin-left: 3px;
-                    height: 56vh;
-                }
-                .page8 .year2 {
-                    margin-left: 3px;
-                }
-                .year1 .pete,
-                .lsu,
-                .li,
-                .paul,
-                .he,
-                .pod {
-                    margin-left: -28px;
-                }
-                .year2 .james,
-                .mp,
-                .pl {
-                    margin-left: -23px;
-                }
-                .year2 .ud {
-                    margin-left: -23px;
-                }
-                .year2 .pd {
-                    margin-left: -23px;
-                }
-                .year2 .john {
-                    margin-left: -23px;
-                }
-                .portfolio {
-                    margin-left: -103px;
-                    margin-top: 43px;
-                }
-                .css {
-                    margin-top: 10px;
-                    margin-left: -5px;
-                }
-                .css ul li a {
-                    display: block;
-                    margin-right: 300px;
-                    height: 1vh;
-                    margin-left: 300px;
-                }
-                .white {
-                    display: block;
-                    margin-left: -2%;
-                }
-                .white .blue img {
-                    width: 100vw;
-                }
-                .white .red img {
-                    width: 100vw;
-                }
-                .white .yellow img {
-                    width: 100vw;
-                }
-                .touch {
-                    margin-left: 21%;
-                }
-                .logo {
-                    display: block;
-                    margin-top: 30px;
-                }
-                #call {
-                    margin-bottom: -14px;
-                }
-                .call {
-                    margin-left: 26%;
-                }
-                .call p {
-                    margin-left: -10px;
-                }
-                #email {
-                    margin-bottom: -20px;
-                }
-                .email {
-                    margin-left: 22%;
-                    margin-top: 38px;
-                }
-                .email p {
-                    margin-left: -7px;
-                }
-                .infor {
-                    margin-left: 11%;
-                    margin-top: 17px;
-                }
-                .infor .user {
-                    width: 95vw;
-                    margin-left: -38px;
-                    margin-top: 13px;
-                }
-                .infor .pass {
-                    width: 95vw;
-                    margin-left: -38px;
-                    margin-top: 13px;
-                }
-                .infor .email {
-                    width: 95vw;
-                    margin-left: -38px;
-                    margin-top: 13px;
-                }
-                .infor .comm {
-                    width: 95vw;
-                    margin-left: -38px;
-                    margin-top: 13px;
-                }
-                .send h2 {
-                    width: 50vw;
-                    height: 6vh;
-                    padding-top: 4%;
-                    font-size: 20px;
-                    margin-left: -35px;
-                }
+        }
+        
+        @media only screen and (min-device-width:1024px) and (max-device-width:1200px) {
+            body {
+                width: 100vw;
             }
-            
-            @media only screen and (min-device-width:377px) and (max-device-width:411px) {
-                body {
-                    width: 100vw;
-                }
-                .page1 {
-                    margin-top: -6px;
-                }
-                .page1 ul {
-                    margin-left: -93px;
-                    display: block;
-                    margin-top: -6px;
-                    margin-bottom: 28px;
-                    display: block;
-                }
-                .page1 li {
-                    width: 100%;
-                    bottom: 20px;
-                    right: 75px;
-                }
-                .page1 ul li {
-                    height: -0vh;
-                }
-                .page2 img {
-                    margin-top: 3%;
-                    margin-left: -116px;
-                }
-                .page3 {
-                    margin-left: -123px;
-                }
-                .page3 p {
-                    font-family: 'Montserrat', sans-serif;
-                    line-height: 1.5;
-                    width: 82vw;
-                    font-size: 18px;
-                    font-style: normal;
-                    font-weight: 400;
-                    margin-left: 27%;
-                }
-                .page3 h1 {
-                    width: 80%;
-                    margin-left: 128px;
-                    font-size: 35px;
-                    font-style: normal;
-                    font-weight: 700 !important;
-                    line-height: 1.5;
-                }
-                .page4 {
-                    position: absolute;
-                    display: block;
-                    top: 735px;
-                    margin-left: 89px;
-                }
-                .about-us {
-                    margin-left: 29%;
-                    margin-top: 97%;
-                }
-                .page4 .vector {
-                    width: 62vw;
-                }
-                .page4 .rec {
-                    top: 284px;
-                    width: 62vw;
-                    height: 30vh;
-                    left: -47px;
-                }
-                .male {
-                    display: block;
-                    margin-left: -124px;
-                }
-                .pictu img {
-                    width: 94vw;
-                }
-                .focus {
-                    margin-left: 92px;
-                }
-                .focused {
-                    width: 353px;
-                }
-                .through {
-                    width: 100vw;
-                }
-                .worker {
-                    margin-left: 61px;
-                }
-                .resume {
-                    margin-left: -101px;
-                    margin-top: 34px;
-                }
-                .page8 {
-                    display: block;
-                    margin-top: 42px;
-                }
-                .page8 .year1 {
-                    margin-left: 6px;
-                }
-                .page8 .year2 {
-                    color: white;
-                    margin-left: 5.5px;
-                    height: 43vh;
-                }
-                .year1 .pete,
-                .lsu,
-                .li,
-                .paul,
-                .he,
-                .pod {
-                    margin-left: -28px;
-                }
-                .year2 .james,
-                .mp,
-                .pl {
-                    margin-left: -23px;
-                }
-                .year2 .ud {
-                    margin-left: -23px;
-                }
-                .year2 .pd {
-                    margin-left: -23px;
-                }
-                .year2 .john {
-                    margin-left: -23px;
-                }
-                .portfolio {
-                    margin-left: -98px;
-                    margin-top: 33px;
-                }
-                .css {
-                    margin-top: 10px;
-                    margin-left: -5px;
-                }
-                .css ul li a {
-                    display: block;
-                    margin-right: 300px;
-                    height: 1vh;
-                    margin-left: 300px;
-                }
-                .white {
-                    display: block;
-                    margin-left: -2%;
-                }
-                .white .blue img {
-                    width: 100vw;
-                }
-                .white .red img {
-                    width: 100vw;
-                }
-                .white .yellow img {
-                    width: 100vw;
-                }
-                .touch {
-                    margin-left: 23%;
-                }
-                .logo {
-                    display: block;
-                }
-                .logo {
-                    display: block;
-                    margin-top: 30px;
-                }
-                #call {
-                    margin-bottom: -14px;
-                }
-                .call {
-                    margin-left: 29%;
-                    display: block;
-                }
-                .call p {
-                    margin-left: -10px;
-                }
-                #email {
-                    margin-bottom: -20px;
-                }
-                .email {
-                    margin-left: 26%;
-                    margin-top: 38px;
-                }
-                .email p {
-                    margin-left: -7px;
-                }
-                .infor {
-                    margin-left: 11%;
-                    margin-top: 17px;
-                }
-                .infor .user {
-                    margin-left: -42px;
-                    width: 94vw;
-                }
-                .infor .pass {
-                    margin-top: 15px;
-                    margin-left: -42px;
-                    width: 94vw;
-                }
-                .infor .email {
-                    width: 94vw;
-                    margin-left: -42px;
-                    margin-top: 15px;
-                }
-                .infor .comm {
-                    width: 94vw;
-                    margin-left: -42px;
-                    margin-top: 15px;
-                }
-                .send h2 {
-                    width: 56vw;
-                    height: 6vh;
-                    padding-top: 4%;
-                    font-size: 20px;
-                    margin-left: -35px;
-                }
+            .page1 ul {
+                margin-right: 18px;
+                margin-top: -38px;
             }
-            
-            @media only screen and (min-device-width: 412px) and (max-device-width: 415px) {
-                body {
-                    width: 100vw;
-                }
-                .page1 {
-                    margin-top: -6px;
-                }
-                .page1 ul {
-                    margin-left: -97px;
-                }
-                .page1 li {
-                    width: 100%;
-                    bottom: 20px;
-                    right: 75px;
-                }
-                .page1 ul li {
-                    height: -0vh;
-                }
-                .page2 img {
-                    margin-top: 12%;
-                    margin-left: -111px;
-                }
-                .page3 {
-                    margin-left: -127px;
-                }
-                .page3 h1 {
-                    width: 364px;
-                    margin-left: 35%;
-                    font-size: 35px;
-                    font-style: normal;
-                    font-weight: 700 !important;
-                    line-height: 1.5;
-                }
-                .page3 p {
-                    margin-left: 35%;
-                    font-family: 'Montserrat', sans-serif;
-                    line-height: 1.5;
-                    width: 82vw;
-                    font-size: 18px;
-                    font-style: normal;
-                    font-weight: 400;
-                }
-                .icons {
-                    margin-left: 30%;
-                }
-                .about-us {
-                    margin-top: 88%;
-                }
-                .page4 {
-                    top: 742px;
-                    display: block;
-                    position: absolute;
-                    margin-left: 82px;
-                }
-                .page4 .vector {
-                    width: 60vw;
-                }
-                .page4 .rec {
-                    top: 279px;
-                    width: 60vw;
-                    left: -48px;
-                    height: 29vh;
-                }
-                .about-us {
-                    margin-left: 29%;
-                    margin-top: 98%;
-                }
-                .male {
-                    display: block;
-                    margin-left: -126px;
-                }
-                .pictu img {
-                    margin-left: 25%;
-                    width: 53vh;
-                }
-                .focus h1 {
-                    margin-top: 49px;
-                    margin-left: 12%;
-                }
-                .focused {
-                    line-height: 1.5;
-                    font-weight: 400;
-                    font-size: 18px;
-                    font-style: normal;
-                    width: 86vw;
-                }
-                .through {
-                    line-height: 1.5;
-                    font-size: 18px;
-                    font-style: normal;
-                    font-weight: 400;
-                    width: 80vw;
-                }
-                .worker {
-                    margin-left: 60px;
-                }
-                .resume {
-                    margin-left: -110px;
-                    margin-top: 33px;
-                }
-                .page8 {
-                    display: block;
-                    margin-top: 40px;
-                }
-                .page8 .year1 {
-                    margin-left: 5px;
-                    display: block;
-                }
-                .page8 .year2 {
-                    display: block;
-                    margin-left: 5px;
-                    height: 45vh;
-                }
-                .year1 .pete,
-                .lsu,
-                .li,
-                .paul,
-                .he,
-                .pod {
-                    margin-left: -28px;
-                }
-                .year2 .james,
-                .mp,
-                .pl {
-                    margin-left: -23px;
-                }
-                .year2 .ud {
-                    margin-left: -23px;
-                }
-                .year2 .pd {
-                    margin-left: -23px;
-                }
-                .year2 .john {
-                    margin-left: -23px;
-                }
-                .portfolio {
-                    margin-left: -94px;
-                    margin-top: 49px;
-                }
-                .css {
-                    margin-top: 10px;
-                }
-                .css ul li a {
-                    display: block;
-                    margin-right: 300px;
-                    height: 1vh;
-                    margin-left: 300px;
-                }
-                .white {
-                    display: block;
-                    margin-top: 20px;
-                    margin-left: 44px;
-                }
-                .white .blue img {
-                    margin-left: -49px;
-                    width: 99vw;
-                }
-                .white .red img {
-                    margin-left: -49px;
-                    width: 99vw;
-                }
-                .white .yellow img {
-                    margin-left: -49px;
-                    width: 99vw;
-                }
-                .touch {
-                    margin-left: 24%;
-                    margin-top: 31px;
-                }
-                .logo {
-                    display: block;
-                    margin-top: 30px;
-                }
-                #call {
-                    margin-bottom: -14px;
-                }
-                .call {
-                    margin-left: 29%;
-                }
-                .call p {
-                    margin-left: -10px;
-                }
-                #email {
-                    margin-bottom: -20px;
-                }
-                .email {
-                    margin-left: 27%;
-                    margin-top: 38px;
-                }
-                .email p {
-                    margin-left: -7px;
-                }
-                .infor {
-                    margin-left: 10%;
-                    margin-top: -15px;
-                }
-                .infor .user {
-                    width: 95vw;
-                    margin-left: -38px;
-                    margin-top: 13px;
-                }
-                .infor .pass {
-                    width: 95vw;
-                    margin-left: -38px;
-                    margin-top: 13px;
-                }
-                .infor .email {
-                    width: 95vw;
-                    margin-left: -38px;
-                    margin-top: 13px;
-                }
-                .infor .comm {
-                    width: 95vw;
-                    margin-left: -38px;
-                    margin-top: 13px;
-                }
-                .send h2 {
-                    width: 54vw;
-                    height: 6vh;
-                    padding-top: 4%;
-                    font-size: 20px;
-                    margin-left: -35px;
-                }
+            .page2 img {
+                margin-left: -91px;
+                margin-top: 62px;
             }
+            .hook {
+                margin-left: -66px;
+            }
+            .hook h2 {
+                margin-left: 114px;
+            }
+            .page3 {
+                margin-left: -17px;
+            }
+            .page3 h1 {
+                width: 42vw;
+                font-size: 35px;
+                font-weight: 700 !important;
+            }
+            .page3 p {
+                color: white;
+                margin-left: 26%;
+                line-height: 1.5;
+                font-size: 18px;
+                width: 438px;
+            }
+            .page4 .rec {
+                top: 160px;
+                width: 464px;
+                height: 415px;
+                left: -155.44px;
+            }
+            .page4 .vector {
+                top: 197px;
+                width: 468px;
+                height: 434.7px;
+                left: -155.44px;
+            }
+            .icons {
+                margin-left: 22%;
+            }
+            .about-us {
+                margin-left: 39%;
+                margin-top: 6%;
+            }
+            .male {
+                margin-left: -75px;
+            }
+            .pictu img {
+                margin-left: 25%;
+                width: 32vh;
+            }
+            .focus {
+                margin-left: 86px;
+            }
+            .focused p {
+                width: 393px;
+                font-size: 18px;
+                font-weight: 400;
+            }
+            .through {
+                width: 423px;
+                font-size: 18px;
+                font-weight: 400;
+            }
+            .worker {
+                margin-left: 56px;
+            }
+            .resume {
+                margin-left: -73px;
+            }
+            .page8 {
+                margin-top: 45px;
+                margin-left: -117px;
+            }
+            .page8 .year1 {
+                height: 23vh;
+                margin-left: 177px;
+            }
+            .page8 .year2 {
+                margin-left: 14%;
+                height: 23vh;
+            }
+            .year1 .pete,
+            .lsu,
+            .li,
+            .paul,
+            .he,
+            .pod {
+                margin-left: -28px;
+            }
+            .year2 .james,
+            .mp,
+            .pl {
+                margin-left: -23px;
+            }
+            .year2 .ud {
+                margin-left: -23px;
+            }
+            .year2 .pd {
+                margin-left: -23px;
+            }
+            .year2 .john {
+                margin-left: -23px;
+            }
+            .portfolio {
+                margin-left: -69px;
+                margin-top: 31px;
+            }
+            .css {
+                margin-top: 70px;
+                margin-left: -60px;
+            }
+            .css ul {
+                margin-top: -20px;
+            }
+            .css ul a {
+                height: 1vh;
+            }
+            .white {
+                margin-left: 1.5%;
+                margin-top: 13px;
+                display: flex;
+            }
+            .blue img {
+                width: 32vw;
+            }
+            .red img {
+                width: 32vw;
+            }
+            .yellow img {
+                width: 32vw;
+            }
+            .touch {
+                margin-left: 41%;
+            }
+            .call {
+                margin-left: 14%;
+            }
+            .call p {
+                margin-left: -18px;
+            }
+            #call {
+                margin-bottom: -15px;
+            }
+            .logo {
+                margin-top: 37px;
+                margin-left: 56px;
+            }
+            .email {
+                margin-left: 28%;
+            }
+            .email p {
+                margin-left: -19px;
+            }
+            #email {
+                margin-bottom: -20px;
+            }
+            .infor {
+                margin-top: -2px;
+                margin-left: 7%;
+            }
+            .infor .user {
+                margin-left: -54px;
+                width: 45vw;
+            }
+            .infor .pass {
+                margin-left: 36px;
+                width: 46vw;
+            }
+            .infor .email {
+                margin-left: -54px;
+                width: 95vw;
+            }
+            .infor .comm {
+                margin-left: -54px;
+                width: 95vw;
+            }
+            .send h2 {
+                height: 50px;
+                width: 41%;
+                padding-top: 2%;
+                margin-top: 3%;
+                margin-left: -53px;
+            }
+        }
